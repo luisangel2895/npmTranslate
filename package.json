@@ -1,0 +1,30 @@
+{
+  "name": "npmtest",
+  "version": "0.1.0",
+  "description": "Test package for npm to filter words",
+  "main": "dist/src/npmtestDist.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisangel2895/npmTranslate.git"
+  },
+  "keywords": [
+    "npmtest",
+    "filter",
+    "translate"
+  ],
+  "author": "Angel Orellana <luisangel2895@gmail.com> (https://angelorellana.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisangel2895/npmTranslate/issues"
+  },
+  "homepage": "https://github.com/luisangel2895/npmTranslate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
